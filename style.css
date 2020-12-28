@@ -115,10 +115,6 @@ body{
     margin-right: 32px;
 }
 
-#btn-navigation{
-    
-}
-
 /* Footer style css */
 
 .attribution { 
@@ -128,4 +124,102 @@ body{
 
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    body {
+        min-width: 375px;
+    }
+    .bg-container {
+        flex-direction: column-reverse;
+    }
+    .image-tanya {
+        border-radius: 4px;
+        width: 70%;
+        z-index: 1;
+        margin-left: 0px;
+        margin-top: 12px;
+        box-shadow: 6px 16px 28px 0px rgb(93 57 155 / 44%);
+    }
+    .pattern-bg-right {
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        width: 88%;
+    }
+    .pattern-quotes {
+        position: fixed;
+        top: 372px;
+        left: 158px;
+        width: 56px;
+    }
+    .testimonial-container{
+        width: 80%;
+        height: 100%;
+        margin-left: 12%;
+        margin-right: 12%;
+        margin-top: 24%;
+        word-break: keep-all;
+        z-index: 2;
+    }
+    .quote-text {
+        width: 100%;
+        margin-left: 0;
+        font-size: 17px;
+        text-align: center;
+    }
+    .person-title-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        align-content: stretch;
+        z-index: 2;
+    }
+
+    .person-title {
+        font-weight: 300;
+        text-shadow: 0.4px 0 var(--dark-blue);
+        color: var(--grayish-blue);
+        margin-top: 2px;
+        margin-right: 4px;
+    }
+
+    .quote-person{
+        font-weight: 700;
+        font-size: 16px;
+        text-shadow: 1px 0 var(--dark-blue);
+        color: var(--dark-blue);
+        margin-top: 16px;
+    }
+    .pattern-curve {
+        position: fixed;
+        bottom: 0;
+        left: 0px;
+        width: 272px;
+    }
+
+    .attribution{
+        display: none;
+    }
+
+    .nav-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        align-content: stretch;
+        position: relative;
+        z-index: 3;
+        background-color: white;
+        border-radius: 52px;
+        width: 72px;
+        height: 88px;
+        top: 292px;
+        right: 6px;
+    }
 }
