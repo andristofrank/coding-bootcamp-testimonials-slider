@@ -4,8 +4,126 @@
     --grayish-blue: hsl(240, 18%, 77%);
 }
 
+/* Desktop devices 1440 px */
+
+body{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.bg-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    height: 100vh;
+    width: 100vw;
+    z-index: 0;
+}
+
+.bg-pattern-images{
+    background-color: white;
+    overflow: hidden;
+}
+
+.pattern-bg-right{
+    position: fixed;
+    top: 20px;
+    right: 70px;
+}
+
+.pattern-curve{
+    position: fixed;
+    bottom: 0;
+    left: 0px;
+}
+
+.pattern-quotes{
+    position: fixed;
+    top: 128px;
+    left: 360px;
+}
+
+.testimonial-container{
+    width: 642px;
+    height: 518px;
+    z-index: 2;
+    margin-top: 185px;
+    margin-left: 116px;
+}
+
+.quote-text{
+    font-size: 32px;
+    font-weight: 500;
+    color: var(--dark-blue);
+}
+
+.person-title-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: left;
+    align-items: center;
+    align-content: stretch;
+    z-index: 2;
+}
+
+.quote-person{
+    font-weight: 700;
+    font-size: 16px;
+    text-shadow: 1px 0 var(--dark-blue);
+    color: var(--dark-blue);
+    margin-right: 8px;
+    margin-top: 32px;
+}
+
+.person-title{
+    font-weight: 300;
+    text-shadow: 0.4px 0 var(--dark-blue);
+    color: var(--grayish-blue);
+    margin-top: 32px;
+}
+
+.image-tanya{
+    border-radius: 4px;
+    z-index: 1;
+    margin-left: -70px;
+    margin-top: -15px;
+    box-shadow: -2px 24px 24px -8px rgba(153, 116, 216, 0.603);
+}
+
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    position: relative;
+    z-index: 3;
+    background-color: white;
+    border-radius: 25px;
+    width: 84px;
+    height: 40px;
+    top: 260px;
+    right: 456px;
+}
+
+#icon-previous{
+    margin-right: 32px;
+}
+
+#btn-navigation{
+    
+}
+
+/* Footer style css */
+
 .attribution { 
-    font-size: 11px; text-align: center; 
+    font-size: 11px; text-align: center;
+    margin-top: 50px; 
 }
 
 .attribution a { 
